@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	width: 100%;
+	height: 100%;
+}
+
+#canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#controls {
+	position: absolute;
+	top: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+
+#play-pause {
+	background: rgba(255, 255, 255, 0.75);
+	padding: 0.5rem 1.25rem;
+	border-radius: 999px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.1s ease;
+}
+
+#play-pause:hover {
+	background: rgba(255, 255, 255, 0.9);
+}
